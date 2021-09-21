@@ -1,8 +1,6 @@
 function IdCard(props) {
     const height = `${(props.height/100).toFixed(2)}m`
     const birth = props.birth.toDateString().slice(4);
-    console.log(birth.slice(4));
-
     return (
         <div className="idcard">
             <div className="left">

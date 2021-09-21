@@ -1,5 +1,4 @@
 function BoxColor(props) {
-    console.log(props);
     const r = props.r;
     const g = props.g;
     const b = props.b;

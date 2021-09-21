@@ -1,7 +1,5 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
+  display: block;
 }
 
 .idcard {
@@ -37,4 +35,60 @@
   padding: 5px;
   border: 2px solid black;
   margin: 5px;
+}
+
+.creditcard {
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.type {
+  text-align: right;
+}
+
+.number {
+  font-size: 1.9em;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bank {
+  margin-left: 20px;
+}
+
+.rating {
+  font-size: 2rem;
+}
+
+.driverCard {
+  background-color: #425cbb;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.d-left {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.d-right {
+  margin-left: 10px;
+}
+
+.d-right > h2 {
+  margin: 0px;
+}
+
+.d-right > p {
+  margin: 0px;
 }
